@@ -1,0 +1,99 @@
+trait_model:
+  Plantheight:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.001
+    bs:     16
+
+  Kernelwidth:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     32
+
+  Earheight:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     32
+
+  Earleaflength:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     32
+  Tasselmainaxislength:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     32
+  Tasselbranchnumber:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     32
+
+
+  Earleafwidth:
+    conv_c2: 16
+    hidden: 1024
+    lr:     0.001
+    bs:     32
+  100grainweight:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     16
+
+# cp 100grainweight_lr0.005_bs32_c16_h512.pt /data1/users/tangping/ljx/bio_2/shap_v/shap_csv/放着里面/sRNA-MirGP/checkpoints/mirgp/omics2/G+SE_100grainweight.pt
+  Leafnumberaboveear:
+    conv_c2: 16
+    hidden: 256
+    lr:     0.0001
+    bs:     32
+
+  Earlength:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.0001
+    bs:     16
+
+  Eardiameter:
+    conv_c2: 8
+    hidden: 256
+    lr:     0.0001
+    bs:     16
+
+  Cobdiameter:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.001
+    bs:     32
+
+  Kernernumberperrow:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.001
+    bs:     16
+  cobweight:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.005
+    bs:     32
+
+  Silkingtime:
+    conv_c2: 16
+    hidden: 512
+    lr:     0.0001
+    bs:     16
+  Pollenshed:
+    conv_c2: 16
+    hidden: 256
+    lr:     0.01
+    bs:     32
+
+  Headingdate:
+    conv_c2: 16
+    hidden: 256
+    lr:     0.0001
+    bs:     32
