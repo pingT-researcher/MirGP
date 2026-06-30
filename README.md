@@ -11,10 +11,13 @@ Multi-omics data splicing → Pearson correlation feature screening → dataset 
 ### 1. Environment Dependencies
 #### 1.1 Python Version
 ```text
-Python >= 3.12.6
+Python >= 3.10
 ``` 
 #### 1.2 Install Dependencies
 ```text
+conda create -n mirgpEnv python=3.10
+conda activate mirgpEnv
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ``` 
 #### 1.3 Hardware Requirements
@@ -149,3 +152,6 @@ Reason: Too few valid features after correlation screening.
 Solution: Appropriately relax the P-value threshold for feature screening.
 3. Program loads old weights directly without retraining
 Solution: Delete corresponding .pt weight files under checkpoints folder, then restart training.
+### 9. Datasets
+If you encounter failures when downloading via Git LFS, an alternative download link for the dataset is provided separately in this project:
+https://doi.org/10.6084/m9.figshare.32830973
