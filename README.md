@@ -76,11 +76,11 @@ Command Line Parameter Explanation
 #### 4.1 Deep Learning Model Running Examples
 ##### MirGP Two-omics joint prediction
 ```text
-python main_MirGP_omics2.py --config /config/G+SE.yaml --trait Plantheight --seq SE --seq_data SE
+python main_MirGP_omics2.py --config ./config/G+SE.yaml --trait Plantheight --seq SE --seq_data SE
 ```
 ##### MirGP Three-omics joint prediction
 ```text
-python main_MirGP_omics3.py --config /config/G+SE+TE.yaml -t Plantheight --rna_seq TE --srna_seq SE
+python main_MirGP_omics3.py --config ./config/G+TE+SE.yaml -t Plantheight --rna_seq TE --srna_seq SE
 ```
 ##### SoyDNGP Three-omics prediction
 ```text
