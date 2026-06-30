@@ -2,65 +2,101 @@ trait_model:
   Plantheight:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
+
   Earleafwidth:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
 
   100grainweight:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
 
   Kernelwidth:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
 
   Earheight:
     conv_c2: 10
     hidden: 1024
-
+    lr:     0.005
+    bs:     32
+    
   Earleaflength:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
 
   Tasselmainaxislength:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Tasselbranchnumber:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Leafnumberaboveear:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Earlength:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
 
   Eardiameter:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Cobdiameter:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Kernernumberperrow:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   cobweight:
     conv_c2: 16
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Silkingtime:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
+
   Pollenshed:
     conv_c2: 10
     hidden: 512
+    lr:     0.005
+    bs:     32
 
   Headingdate:
     conv_c2: 10
     hidden: 1024
+    lr:     0.005
+    bs:     32
