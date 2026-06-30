@@ -25,7 +25,7 @@ PV_THRESH = 0.05
 K_FOLD = 5
 ORDER_MODE = "p_then_absr"
 EPOCHS = 1000
-ROOT_PATH = '/sRNA-MirGP'
+ROOT_PATH = '.'
 
 # Set random seed to ensure experimental reproducibility
 SEED = 123
