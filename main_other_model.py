@@ -40,7 +40,7 @@ torch.backends.cudnn.benchmark = False
 EPOCHS = 1000
 PV_THRESH = 0.05
 ORDER_MODE = "p_then_absr"
-ROOT_PATH = '/sRNA-MirGP'
+ROOT_PATH = '.'
 
 # Suppress FutureWarning thrown by torch.load
 warnings.filterwarnings("ignore", category=FutureWarning)
