@@ -24,7 +24,7 @@ from model.MirGP2 import MirGPModel
 PV_THRESH = 0.05
 ORDER_MODE = "p_then_absr"
 EPOCHS = 1000
-ROOT_PATH = '/MirGP'
+ROOT_PATH = '.'
 
 # Set random seed for reproducibility
 SEED = 123
